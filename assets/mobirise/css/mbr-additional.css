@@ -712,31 +712,56 @@ section.lazy-placeholder:after {
 .cid-s6gbZPf9z9 .mbr-section-subtitle {
   color: #0050a1;
 }
-.cid-s7oFXLDa7r {
-  padding-top: 135px;
-  padding-bottom: 135px;
-  background-image: url("../../../assets/images/sello-y-mapa-2000x545.jpg");
-}
-.cid-s7oFXLDa7r .mbr-arrow {
-  background: #232323 !important;
-  opacity: .7;
-}
-.cid-s7oFXLDa7r .mbr-arrow i {
-  color: #ffffff !important;
-}
-.cid-s7oFXLDa7r .underline .line {
-  width: 2rem;
-  height: 1px;
+.cid-s7h26Wj13I {
+  padding-top: 0px;
+  padding-bottom: 45px;
   background: #ffffff;
-  display: inline-block;
 }
-.cid-s7oFXLDa7r .animated-element,
-.cid-s7oFXLDa7r .typed-cursor {
-  color: #ffffff;
+.cid-s7h26Wj13I .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+  -webkit-align-items: stretch;
 }
-@media (max-width: 767px) {
-  .cid-s7oFXLDa7r .typed-text {
-    text-align: center;
+.cid-s7h26Wj13I .media-container-row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+.cid-s7h26Wj13I .media-container-row .img-item .img-cont {
+  position: relative;
+  overflow: hidden;
+}
+.cid-s7h26Wj13I .media-container-row .img-item .img-cont img {
+  width: 100%;
+}
+.cid-s7h26Wj13I .media-container-row .img-item .img-cont .img-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-s7h26Wj13I .media-container-row .img-item .img-cont .img-caption p {
+  margin-bottom: 0;
+}
+.cid-s7h26Wj13I .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-s7h26Wj13I .img-item {
+    width: 100% !important;
+  }
+  .cid-s7h26Wj13I .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+    -webkit-flex-basis: initial !important;
   }
 }
 .cid-s6gCxbRymi {
